@@ -1,49 +1,52 @@
-# Project_01_Walmart_Null_Value_Handling
-# Walmart Null Value Handling Project
+---
+## 🧠 Null Value Handling Strategy
 
-## 📝 Project Overview
-This project focuses on cleaning missing (null) values in a simulated Walmart sales dataset. It demonstrates multiple data imputation techniques based on column types, logical patterns, and real-world business context.
+| Column         | Type        | Missing Values | Handling Strategy                                                  |
+|----------------|-------------|----------------|--------------------------------------------------------------------|
+| Order ID       | Identifier  | 7              | Filled with `'Unknown'`                                            |
+| Customer ID    | Identifier  | 6              | Filled with `'Unknown'`                                            |
+| Customer Name  | Identifier  | 3              | Filled with `'Unknown'`                                            |
+| Order Date     | Date        | 15             | Imputed manually using year/month distribution and region logic    |
+| City           | Categorical | 12             | Filled with `'Unknown'`                                            |
+| Region         | Categorical | 4              | Inferred using City; dropped row if unmatched                      |
+| Category       | Categorical | 7              | Filled using frequency + region-category relationships             |
+| Quantity       | Numeric     | 7              | Inferred using similar records (category, region, date)            |
+| Sales          | Numeric     | 11             | Filled using average sales by category/region                      |
+| Profit         | Numeric     | 12             | Filled with `0.0` (assumed no profit or unknown)                   |
 
 ---
 
-## 📁 Files Included
-- `01_Dataset/`
-  - Raw dataset with null values
-  - Cleaned dataset (Excel)
-- `02_Notebook/`
-  - Jupyter notebook with full null handling process
-- `03_Documentation/`
-  - PDF report explaining methods and decisions
-- `04_Images/`
-  - Before and after null value visualizations
+## 📈 Visual Summary
+
+| Before Cleaning                         | After Cleaning                          |
+|----------------------------------------|-----------------------------------------|
+| ![Before](./04_Images/before_null_plot.png) | ![After](./04_Images/after_null_plot.png) |
 
 ---
 
-## 🔧 Tools Used
-- Jupyter Notebook
-- Python
-- Pandas & Numpy
-- Matplotlib & Seaborn
-- Excel
+## 🛠️ Tools Used
+- **Python 3.x**
+- **Jupyter Notebook**
+- **Pandas, NumPy**
+- **Matplotlib, Seaborn**
+- **Excel (for output dataset)**
 
 ---
 
-## ✅ Key Learnings
-- Different columns require different imputation strategies
-- Domain knowledge is critical for logical filling
-- Visualization helps verify the impact of cleaning
+## 📌 Key Learnings
+
+- Handling missing data requires **context-aware decisions**.
+- Not all columns should be treated the same — identifiers, dates, categories, and numbers each need different approaches.
+- Visualizing before and after null handling helps verify the effectiveness of your strategy.
+- Clean data is critical for valid future analysis like sales trends, customer segmentation, or forecasting.
 
 ---
 
-## 📊 Example Plots
+## 👨‍💻 Author
 
-| Before Cleaning | After Cleaning |
-|-----------------|----------------|
-| ![](./04_Images/before_null_plot.png) | ![](./04_Images/after_null_plot.png) |
+**Siddes**  
+Aspiring Data Analyst  
+📫 [siddesanalyst@gmail.com]  
 
----
-
-## 📌 Author
-**[Siddeswaran K]** — Aspiring Data Analyst
 
 
