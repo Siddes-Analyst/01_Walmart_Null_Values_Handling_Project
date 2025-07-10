@@ -49,7 +49,7 @@
 
 ---
 
-**Siddes**  
+**Siddeswaran K**  
 Aspiring Data Analyst  
 📫 [siddesanalyst@gmail.com]  
 
