@@ -1,4 +1,6 @@
+
 ---
+
 ## 🧠 Null Value Handling Strategy
 
 | Column         | Type        | Missing Values | Handling Strategy                                                  |
@@ -43,6 +45,8 @@
 ---
 
 ## 👨‍💻 Author
+
+---
 
 **Siddes**  
 Aspiring Data Analyst  
