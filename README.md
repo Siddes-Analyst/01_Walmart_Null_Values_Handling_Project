@@ -73,4 +73,4 @@ Aspiring Data Analyst skilled in Python, Power BI, SQL, and Excel.
 - Email: [siddesanalyst@gmail.com]
 - Contact: [+91 9080526503]
 - GitHub: [https://github.com/Siddes-Analyst]
-- GitHub Pages: [your profile] 
+- GitHub Pages: [https://siddes-analyst.github.io/01_Walmart-Null-Values-Handling-Overall/] 
