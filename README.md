@@ -41,7 +41,8 @@ This project focuses on identifying and handling missing values in a simulated r
 
 | Before Cleaning                         | After Cleaning                          |
 |----------------------------------------|-----------------------------------------|
-| ![](Before_Null_Plot.png) | ![](After_Null_Plot.png) |
+![](Before_Null_Plot.png)
+![](After_Null_Plot.png)
 
 ---
 
