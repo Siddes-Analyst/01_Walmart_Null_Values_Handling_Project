@@ -63,8 +63,12 @@ This project focuses on identifying and handling missing values in a simulated r
 
 ---
 
-## 👨‍💻 Author
+## 🙋‍♂️ About Me
+Aspiring Data Analyst skilled in Python, Power BI, SQL, and Excel.
 
-**Siddeswaran K**  
-Aspiring Data Analyst  
-📫 [siddesanalyst@gmail.com]  
+## 📬 Contact
+**Siddeswaran K**
+- Email: [siddesanalyst@gmail.com]
+- Contact: [+91 9080526503]
+- GitHub: [https://github.com/Siddes-Analyst]
+- GitHub Pages: [your profile] 
